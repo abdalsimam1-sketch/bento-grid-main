@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    padding:1em;
+    display: flex;
+    gap: 10px;
+}
+.container > div{
+    border-radius: 10px;
+}
+.col1{
+flex: 1;
+height: 800px;
+
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+
+}
+.col2{
+flex: 3;
+
+}
+.row1{
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.row2{
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.top{
+    border: 1px solid black;
+    height: 290px;
+    width: 500px;
+    gap:10;
+    display: flex;
+    border-radius: 10px;
+}
+.middle{
+   
+    height: 300px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    row-gap: 10px;
+    justify-content: space-between;
+    
+}
+.middle1,.middle2{
+    border: 1px solid black;
+    height: 280px;
+    width: 49%;
+    display: flex;
+    border-radius: 10px;
+}
+.right{
+    
+     height: 210px;
+     display: flex;
+     justify-content: space-between;
+}
+.leftofright{
+     border: 1px solid green;
+     height: auto;
+     width:33%;
+     border-radius: 10px;
+
+}
+.rightofright{
+    border: 1px solid blue;
+    height: auto;
+    width: 65%;
+    border-radius: 10px;
+
+   
+
+}
